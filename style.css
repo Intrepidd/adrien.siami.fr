@@ -30,13 +30,13 @@ img {
 	-moz-border-radius: 5px; /* FF1+ */
 	-webkit-border-radius: 5px; /* Saf3+, Chrome */
 	border-radius: 5px; /* Opera 10.5, IE 9 */
-	-webkit-box-shadow : 
+	-webkit-box-shadow :
 	0px 0px 5px rgba(0,0,0,.5),
 	inset 0 0 3px rgba(255,255,255,.1);
-	-moz-box-shadow : 
+	-moz-box-shadow :
 	0px 0px 5px rgba(0,0,0,.5),
 	inset 0 0 3px rgba(255,255,255,.1);
-	box-shadow : 
+	box-shadow :
 	0px 0px 5px rgba(0,0,0,.5),
 	inset 0 0 3px rgba(255,255,255,.1);
 	text-shadow : 0 2px 3px black;
@@ -80,7 +80,7 @@ img {
 }
 
 #container hr {
-	background-image : -webkit-gradient(linear, left top, 
+	background-image : -webkit-gradient(linear, left top,
 	    right top, from(rgba(255,255,255,0.0)), color-stop(50%, rgba(255,255,255,0.3)), to(rgba(255,255,255,0.0)));
 	background-image : -moz-linear-gradient(100% 100% 180deg,rgba(255,255,255,0.0), rgba(255,255,255,0.3), rgba(255,255,255,0.0) 100%);;
 	height : 1px;
@@ -93,7 +93,7 @@ img {
 }
 
 #container hr .hr {
-	background-image : -webkit-gradient(linear, left top, 
+	background-image : -webkit-gradient(linear, left top,
 	    right top, from(rgba(0,0,0,0.0)), color-stop(50%, rgba(0,0,0,0.3)), to(rgba(0,0,0,0.0)));
 	background-image : -moz-linear-gradient(100% 100% 180deg,rgba(0,0,0,0.0), rgba(0,0,0,0.3), rgba(0,0,0,0.0) 100%);;
 	margin-top : -8px;
@@ -107,13 +107,13 @@ img {
 		float : right;
 		margin-right : -215px;
 	}
-	
+
 	#sidelinks ul {
 		list-style-type: none;
 		margin : 0;
 		padding : 0;
 	}
-	
+
 	#sidelinks ul li {
 		margin-bottom : 10px;
 		float : left;
@@ -121,7 +121,7 @@ img {
 		height : 35px;
 		padding-left : 40px;
 	}
-	
+
 	#sidelinks ul li a {
 		margin-top : 6px;
 		display : inline-block;
@@ -134,7 +134,7 @@ img {
 	#sidelinks ul li a, #sidelinks ul li a:hover {
 		text-decoration : none;
 	}
-	
+
 	#sidelinks ul li#linkedin {
 		background : url('linkedin.png') no-repeat;
 	}
@@ -142,7 +142,7 @@ img {
 	#sidelinks ul li#googleplus {
 	    background : url('googleplus.png') no-repeat;
 	}
-	
+
 	#sidelinks ul li#mail {
 		background : url('mail.png') no-repeat;
 	}
@@ -150,6 +150,6 @@ img {
 	#sidelinks ul li#twitter {
 		background : url('twitter.png') no-repeat;
 	}
-	#sidelinks ul li#aboutme {
+	#sidelinks ul li.aboutme {
 		background : url('aboutme.png') no-repeat;
 	}
