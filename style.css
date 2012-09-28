@@ -6,6 +6,11 @@ body {
   margin : 0 auto;
 }
 
+#wrap {
+  width: 1200px;
+  margin: auto;
+}
+
 #logo {
   margin: auto;
   margin-top:20px;
@@ -18,7 +23,7 @@ img {
 
 #container {
   margin:auto;
-  width:750px;
+  width:650px;
   padding : 20px;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#121213), to(#2c2c2d));
   background-image : -moz-linear-gradient(19% 75% 90deg,#2c2c2d, #121213);
@@ -164,6 +169,10 @@ img {
 
   #sidelinks ul li {
     float: none;
+  }
+
+  #wrap {
+    width: auto;
   }
 
 }
