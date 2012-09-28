@@ -1,48 +1,43 @@
 body {
-	background:url('background.jpg') repeat;
-	text-align:center;
-	padding-bottom : 30px;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	width : 900px;
-	margin : 0 auto;
+  background:url('background.jpg') repeat;
+  text-align:center;
+  padding-bottom : 30px;
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  margin : 0 auto;
 }
 
 #logo {
-	margin-top:20px;
-	text-align:center;
+  margin: auto;
+  margin-top:20px;
+  text-align:center;
 }
 
 img {
     border:none;
 }
 
-#logo img {
-	position:relative;
-	right:40px;
-}
-
 #container {
-	margin:auto;
-	width:750px;
-	padding : 20px;
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#121213), to(#2c2c2d));
-	background-image : -moz-linear-gradient(19% 75% 90deg,#2c2c2d, #121213);
-	-moz-border-radius: 5px; /* FF1+ */
-	-webkit-border-radius: 5px; /* Saf3+, Chrome */
-	border-radius: 5px; /* Opera 10.5, IE 9 */
-	-webkit-box-shadow :
-	0px 0px 5px rgba(0,0,0,.5),
-	inset 0 0 3px rgba(255,255,255,.1);
-	-moz-box-shadow :
-	0px 0px 5px rgba(0,0,0,.5),
-	inset 0 0 3px rgba(255,255,255,.1);
-	box-shadow :
-	0px 0px 5px rgba(0,0,0,.5),
-	inset 0 0 3px rgba(255,255,255,.1);
-	text-shadow : 0 2px 3px black;
-	color: #bdbdbd;
-	text-align:left;
-	font-size : 12px;
+  margin:auto;
+  width:750px;
+  padding : 20px;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#121213), to(#2c2c2d));
+  background-image : -moz-linear-gradient(19% 75% 90deg,#2c2c2d, #121213);
+  -moz-border-radius: 5px; /* FF1+ */
+  -webkit-border-radius: 5px; /* Saf3+, Chrome */
+  border-radius: 5px; /* Opera 10.5, IE 9 */
+  -webkit-box-shadow :
+  0px 0px 5px rgba(0,0,0,.5),
+  inset 0 0 3px rgba(255,255,255,.1);
+  -moz-box-shadow :
+  0px 0px 5px rgba(0,0,0,.5),
+  inset 0 0 3px rgba(255,255,255,.1);
+  box-shadow :
+  0px 0px 5px rgba(0,0,0,.5),
+  inset 0 0 3px rgba(255,255,255,.1);
+  text-shadow : 0 2px 3px black;
+  color: #bdbdbd;
+  text-align:left;
+  font-size : 12px;
 }
 
 #container a {
@@ -54,106 +49,121 @@ img {
 }
 
 #container ul li {
-	list-style-type: none;
-	-webkit-transition: background-color 250ms linear;
-	margin-left : -24px;
-	padding-left : 24px;
-	background-image: url('button.png');
-	background-repeat: no-repeat;
-	background-position: 0 4px;
-	padding-bottom:5px;
-	padding-top : 5px;
-	/*margin-bottom : 10px;*/
+  list-style-type: none;
+  -webkit-transition: background-color 250ms linear;
+  margin-left : -24px;
+  padding-left : 24px;
+  background-image: url('button.png');
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  padding-bottom:5px;
+  padding-top : 5px;
+  /*margin-bottom : 10px;*/
 }
 
-
 #container ul li img {
-	margin-left:15px;
-	position:relative;
-	float : right;
-	top:-1px;
+  margin-left:15px;
+  float : right;
 }
 
 #container h2 {
-	font-family:Helvetica;
-	color:#BFBFBF;
+  font-family:Helvetica;
+  color:#BFBFBF;
 }
 
 #container hr {
-	background-image : -webkit-gradient(linear, left top,
-	    right top, from(rgba(255,255,255,0.0)), color-stop(50%, rgba(255,255,255,0.3)), to(rgba(255,255,255,0.0)));
-	background-image : -moz-linear-gradient(100% 100% 180deg,rgba(255,255,255,0.0), rgba(255,255,255,0.3), rgba(255,255,255,0.0) 100%);;
-	height : 1px;
-	border : none;
+  background-image : -webkit-gradient(linear, left top,
+      right top, from(rgba(255,255,255,0.0)), color-stop(50%, rgba(255,255,255,0.3)), to(rgba(255,255,255,0.0)));
+  background-image : -moz-linear-gradient(100% 100% 180deg,rgba(255,255,255,0.0), rgba(255,255,255,0.3), rgba(255,255,255,0.0) 100%);;
+  height : 1px;
+  border : none;
 }
 
 #container-footer {
-	text-align : center;
-	padding-top : 10px;
+  text-align : center;
+  padding-top : 10px;
 }
 
 #container hr .hr {
-	background-image : -webkit-gradient(linear, left top,
-	    right top, from(rgba(0,0,0,0.0)), color-stop(50%, rgba(0,0,0,0.3)), to(rgba(0,0,0,0.0)));
-	background-image : -moz-linear-gradient(100% 100% 180deg,rgba(0,0,0,0.0), rgba(0,0,0,0.3), rgba(0,0,0,0.0) 100%);;
-	margin-top : -8px;
-	height : 1px;
-	border : none;
+  background-image : -webkit-gradient(linear, left top,
+      right top, from(rgba(0,0,0,0.0)), color-stop(50%, rgba(0,0,0,0.3)), to(rgba(0,0,0,0.0)));
+  background-image : -moz-linear-gradient(100% 100% 180deg,rgba(0,0,0,0.0), rgba(0,0,0,0.3), rgba(0,0,0,0.0) 100%);;
+  margin-top : -8px;
+  height : 1px;
+  border : none;
 }
 
-	div#sidelinks {
-		width : 250px;
-		margin-top : 10px;
-		float : right;
-		margin-right : -215px;
-	}
+  div#sidelinks {
+    width : 250px;
+    margin-top : 10px;
+    float : right;
+  }
 
-	#sidelinks ul {
-		list-style-type: none;
-		margin : 0;
-		padding : 0;
-	}
+  #sidelinks ul {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+  }
 
-	#sidelinks ul li {
-		margin-bottom : 10px;
-		float : left;
-		background : green;
-		height : 35px;
-		padding-left : 40px;
-	}
+  #sidelinks ul li {
+    margin-bottom : 10px;
+    float : left;
+    background : green;
+    height : 35px;
+    padding-left : 40px;
+  }
 
-	#sidelinks ul li a {
-		margin-top : 6px;
-		display : inline-block;
-		font-size : 12px;
-		font-weight: bold;
-		text-shadow : 0 2px 3px black;
-		color: #bdbdbd;
-	}
+  #sidelinks ul li a {
+    margin-top : 6px;
+    display : inline-block;
+    font-size : 12px;
+    font-weight: bold;
+    text-shadow : 0 2px 3px black;
+    color: #bdbdbd;
+  }
 
-	#sidelinks ul li a, #sidelinks ul li a:hover {
-		text-decoration : none;
-	}
+  #sidelinks ul li a, #sidelinks ul li a:hover {
+    text-decoration : none;
+  }
 
-	#sidelinks ul li#linkedin {
-		background : url('linkedin.png') no-repeat;
-	}
+  #sidelinks ul li#linkedin {
+    background : url('linkedin.png') no-repeat;
+  }
 
-	#sidelinks ul li#googleplus {
-	    background : url('googleplus.png') no-repeat;
-	}
+  #sidelinks ul li#googleplus {
+      background : url('googleplus.png') no-repeat;
+  }
 
-	#sidelinks ul li#mail {
-		background : url('mail.png') no-repeat;
-	}
+  #sidelinks ul li#mail {
+    background : url('mail.png') no-repeat;
+  }
 
-	#sidelinks ul li#twitter {
-		background : url('twitter.png') no-repeat;
-	}
-	#sidelinks ul li.aboutme {
-		background : url('aboutme.png') no-repeat;
-	}
+  #sidelinks ul li#twitter {
+    background : url('twitter.png') no-repeat;
+  }
+  #sidelinks ul li.aboutme {
+    background : url('aboutme.png') no-repeat;
+  }
 
-	#sidelinks ul li#github {
-		background : url('github.png') no-repeat;
-	}
+  #sidelinks ul li#github {
+    background : url('github.png') no-repeat;
+  }
+
+
+@media (max-width: 480px) {
+
+  #container {
+    width: 80%;
+  }
+
+  div#sidelinks {
+    float: none;
+    margin: auto;
+    width: 80%;
+  }
+
+  #sidelinks ul li {
+    float: none;
+  }
+
+}
