@@ -104,7 +104,7 @@ img {
     margin-bottom : 10px;
     float : left;
     height : 35px;
-    padding-left : 40px;
+    margin-left : 40px;
   }
 
   #sidelinks ul li a {
@@ -133,6 +133,7 @@ img {
 
   #sidelinks ul li {
     float: none;
+    margin-left: 0;
   }
 
   #wrap {
