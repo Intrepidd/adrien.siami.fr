@@ -7,45 +7,57 @@ title: Adrien Siami - Développeur web et logiciel
 
   <div id="sidelinks">
     <ul>
-      <li class="aboutme"><a href="https://docs.google.com/document/d/1SAr9bJ5eVyIr2CYrEmGnrHjpo8MjxyL3Y7Tl5VsKbDU/edit" title="CV en anglais"><i class="fa fa-file-pdf-o"></i></a></li>
-      <li id="linkedin"><a href="http://fr.linkedin.com/in/adriensiami" title="Profil LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-      <li id="mail"><a href="mailto:adrien@siami.fr" title="Me contacter par e-mail"><i class="fa fa-envelope"></i></a></li>
-      <li id="github"><a href="http://github.com/Intrepidd"><i class="fa fa-github"></i></a></li>
+      <li class="aboutme">
+        <% link_to 'https://docs.google.com/document/d/1SAr9bJ5eVyIr2CYrEmGnrHjpo8MjxyL3Y7Tl5VsKbDU/edit' do %>
+          <i class="fa fa-file-pdf-o"></i>
+        <% end %>
+      </li>
+      <li id="linkedin">
+        <% link_to 'http://fr.linkedin.com/in/adriensiami' do %>
+          <i class="fa fa-linkedin"></i>
+        <% end %>
+      </li>
+      <li id="mail">
+        <% link_to 'mailto:adrien@siami.fr' do %>
+          <i class="fa fa-envelope"></i>
+        <% end %>
+      </li>
+      <li id="github">
+        <% link_to 'http://github.com/Intrepidd' do %>
+          <i class="fa fa-github"></i>
+        <% end %>
+      </li>
     </ul>
   </div>
 
 
   <div id="container">
-    <h2>Profil - Développeur Ruby on Rails, Web &amp; Logiciel</h2>
+    <h2>Web &amp; Software developer</h2>
     <ul>
-      <li>Dévelopeur R&amp;D chez <a href="http://dimelo.com">Dimelo</a></li>
-      <li>23 Ans - 15 / 11 / 1991</li>
-      <li>En 5 mots : Autonome, Passionné, Flexible, Autodidacte, Ambitieux</li>
-      <li>Anglais: Courant, TOEIC officiel : 905 / 990, TOEFL IBT Officiel : 101 / 120</li>
+      <li>Software engineer at <%= link_to 'Homestay', 'http://www.homestay.com' %></li>
+      <li>24 years old - 15 / 11 / 1991</li>
+      <li>Languages: Native French, Fluent English</li>
+      <li>Education: Master Degree in information technology &ndash; Epitech Paris</li>
     </ul>
-    <h2>Compétences Techniques</h2>
+    <h2>Technical skills</h2>
     <ul class="competences">
-      <li class="1">Ruby / Ruby On Rails (Contributeur)</li>
+      <li class="1">Ruby / Ruby On Rails (<%= link_to 'Contributions', 'http://contributors.rubyonrails.org/contributors/adrien-siami/commits' %>)</li>
       <li class="2">Javascript</li>
       <li class="3">mySQL</li>
       <li class="4">MongoDB</li>
       <li class="5">C / C++ </li>
-      <li class="6">Linux (Fedora, Ubuntu , Debian ) - Administration système </li>
-      <li class="7">Utilisation et configuration de serveurs type Apache, Nginx, Passenger, Thin, unicorn, etc </li>
-      <li class="8">Versionnement : Bonnes connaissances Git / SVN</li>
-      <li class="9">Bases en réseau : Wireshark,  nmap, netcat, sockets</li>
-      <li class="10">Sécurité web et réseaux</li>
+      <li class="6">Linux (Fedora, Ubuntu , Debian ) </li>
+      <li class="7">Apache, Nginx, Passenger, Thin, unicorn, etc </li>
+      <li class="8">Git / SVN</li>
     </ul>
-    <h2>Expériences Professionnelles</h2>
+    <h2>Professional experience</h2>
     <ul>
-      <li>Dévelopeur Rails R&amp;D pour <a href="http://dimelo.com">Dimelo</a> de Juin 2013 à ce jour</li>
-      <li>Lead developer Ruby on Rails pour <a href="http://wizville.fr">WizVille</a> de Juillet 2011 à Juin 2013</li>
-      <li>Assistant pédagogique C++ (Koala) à <a href="http://epitech.eu">Epitech</a> - De mai 2012 à février 2014</li>
-      <li>Assistant pédagogique C / Unix (Astek) à <a href="http://epitech.eu">Epitech</a> - De mars 2011 à février 2014</li>
-      <li>Assistant téchnologies Web à <a href="http://supinternet.fr/">Sup'internet</a> - De novembre 2011 à février 2014</li>
-      <li>Développement Ruby on Rails et Zend chez <a href="http://www.entropic-synergies.com/">Entropic Synergies</a> - 1/07/2010 au 31/12/2010</li>
-      <li>Création de boutiques en lignes avec Prestashop, ainsi que de modules additionnels - Début 2010</li>
-      <li>Projets Epitech principaux : Shell complet, Client / Serveur IRC / FTP, Bomberman en 3D, Client / Server Voip, Serveur HTTP</li>
+      <li>Software Engineer &ndash; <%= link_to 'Homestay', 'http://homestay.com' %> &ndash; From November 2015</li>
+      <li>Lead developer, Ruby on Rails &ndash; <%= link_to 'WizVille', 'http://wizville.fr' %> &ndash;  July 2011 to June 2013</li>
+      <li>Teaching assistant, C++ &ndash; <%= link_to 'Epitech', 'http://epitech.eu' %> &ndash; May 2012 to february 2014</li>
+      <li>Teaching assistant, C / Unix &ndash; <%= link_to 'Epitech', 'http://epitech.eu' %> &ndash; March 2011 to February 2014</li>
+      <li>Teaching assistant, Web technologies &ndash; <%= link_to 'Sup\'internet', 'http://supinternet.fr/' %> &ndash; November 2011 to February 2014</li>
+      <li>Ruby on Rails &amp; Zend developer &ndash; <%= link_to 'Entropic Synergies', 'http://www.entropic-synergies.com/' %> &ndash; July 2010 to December 2010</li>
     </ul>
     <hr />
   </div>
